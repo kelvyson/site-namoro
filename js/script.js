@@ -95,7 +95,7 @@ tick();
 setInterval(tick, 1000);
 
 // edição
-const editToggle = document.getElementById('editToggle');
+/*const editToggle = document.getElementById('editToggle');
 const editBar = document.getElementById('editBar');
 editToggle.addEventListener('click',(e)=>{
   e.preventDefault();
@@ -132,7 +132,7 @@ fileInput.addEventListener('change', async (ev)=>{
     if(idx===0) img.classList.add('active'); 
     carouselEl.appendChild(img);
   });
-});
+});*/
 
 // corações caindo
 function createHeart() {
