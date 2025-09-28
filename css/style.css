@@ -1,7 +1,7 @@
 :root {
   --bg: #0069f3;
   --text: #fff;
-  --muted: #aaa;
+  --muted: hsl(0, 0%, 0%);
 }
 
 
