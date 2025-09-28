@@ -258,4 +258,73 @@ audio {
   100% { transform: scale(3); opacity: 0; }
 }
 
+/* ===================== */
+/*  ESTILO PARA CELULAR  */
+/* ===================== */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  h1#title {
+    font-size: 1.8rem; /* menor no mobile */
+  }
+
+  .frase-amor {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  /* Player de música ocupa 100% */
+  .music-player {
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    width: 95%;
+  }
+
+  .music-cover {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Carrossel ocupa quase toda a tela */
+  .carousel {
+    width: 95%;
+    height: 400px;
+    border-width: 5px; /* borda mais fina no celular */
+  }
+
+  /* Botões do carrossel maiores para dedo */
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 10px;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 10px 16px;
+    border-radius: 50%;
+  }
+
+  /* Timer mais compacto */
+  .time-seg {
+    min-width: 72px;
+    padding: 8px 10px;
+  }
+  .time-seg .num {
+    font-size: 16px;
+  }
+
+  /* Carta adaptada */
+  .carta-amor {
+    font-size: 1rem;
+    padding: 20px;
+    margin: 20px 10px;
+  }
+}
+
 
