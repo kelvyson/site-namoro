@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nosso Relacionamento ❤️</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<div id="intro-screen">
+  <button id="startBtn" class="glow-button">💙 CLIQUE</button>
+</div>
+
+
+<body>
+  <!-- Player de Música -->
+<div class="music-player">
+  <img src="images/capa-musica.jpg" alt="Capa" class="music-cover">
+  <div class="music-info">
+    <div class="music-title">Nossa Canção</div>
+    <div class="music-artist">Vanessa da Mata</div>
+    <audio id="audioPlayer" controls>
+      <source src="musicas/nossa-cancao.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar"><img id="cover" src="images/photo1.jpg" alt="Capa"/></div>
+        <div>
+          <h1 id="title">Nosso Relacionamento ❤️</h1>
+
+          <p class="frase-amor">Desde <span id="startDateText">28/11/2024</span></p>
+
+          <div class="muted small frase-amor">Relógio contador de quanto tempo estamos sendo felizes juntos</div>
+        </div>
+      </header>
+
+      <div class="timer" id="timer"></div>
+
+      <div style="margin-top:16px">
+        <div class="carousel" id="carousel">
+          <img src="images/photo1.jpg" class="active" />
+          <img src="images/photo2.jpg" />
+          <img src="images/photo3.jpg" />
+          <img src="images/photo4.jpg" />
+          <img src="images/photo5.jpg" />
+          <img src="images/photo6.jpg" />
+          <img src="images/photo7.jpg" />
+          <img src="images/photo8.jpg" />
+          <img src="images/photo9.jpg" />
+          <img src="images/photo10.jpg" />
+          <img src="images/photo11.jpg" />
+          <img src="images/photo12.jpg" />
+          <img src="images/photo13.jpg" />
+          <img src="images/photo14.jpg" />
+          <img src="images/photo15.jpg" />
+          <img src="images/photo16.jpg" />
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btn" id="prevBtn">◀</button>
+        <button class="btn" id="nextBtn">▶</button>
+
+        <div class="muted frase-amor">Role para ver nossa história de amor</div>
+      </div>
+
+      <div class="edit-bar" id="editBar" style="display:none">
+        <label class="small">Data de início: <input type="date" id="startDateInput" /></label>
+        <label class="small">Título: <input type="text" id="titleInput" placeholder="Nosso Relacionamento" /></label>
+        <label class="small">Subtítulo: <input type="text" id="subtitleInput" placeholder="Desde..." /></label>
+        <label class="small">Adicionar imagem: <input type="file" id="fileInput" accept="image/*" multiple /></label>
+        <button class="btn" id="saveBtn">Salvar (local)</button>
+      </div>
+
+      <footer>
+        <div class="muted">Feito com carinho — Te Amo 💝</div>
+      </footer>
+    </div>
+
+    <div style="text-align:center;margin-top:12px">
+      <a id="editToggle" class="muted small" href="#">Editar / Personalizar</a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <div class="carta-amor">
+  <p>
+    Meu amor, obrigado por todos os momentos felizes que já vivemos e pelos que ainda vamos viver. Sou profundamente grato por ter te conhecido, pois desde que você entrou na minha vida, tudo ganhou mais cor e sentido. Meus objetivos se tornaram mais claros, meus dias mais leves e meu coração muito mais feliz.
+
+Você é incrível do seu jeitinho único, insubstituível, e eu amo cada detalhe que te torna quem você é. Obrigado pelas gargalhadas e risadas nos momentos difíceis, por me mostrar que até nas tempestades podemos encontrar motivos para sorrir. Obrigado pelo cuidado imenso que você tem comigo, sempre me tratando com carinho e fazendo o possível para me ver bem.
+
+Quero que saiba que te amo mais a cada dia, e que a minha maior felicidade é caminhar ao seu lado. Espero que esse temporizador nunca pare, para que possamos viver juntos, lado a lado, eternamente, construindo uma história de amor que nunca terá fim. 💌
+  </p>
+</div>
+</body>
+</html>
